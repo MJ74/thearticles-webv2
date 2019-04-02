@@ -156,6 +156,14 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
     <Content Include="Default.aspx" />
+    <Content Include="Ent\Games\ModGames\Topic Page.aspx" />
+    <Content Include="Ent\Games\ModGames\Viewer.aspx" />
+    <Content Include="Ent\Games\OgGames\Topic Page.aspx" />
+    <Content Include="Ent\Games\OgGames\Viewer.aspx" />
+    <Content Include="Ent\Movies\Topic Page.aspx" />
+    <Content Include="Ent\Movies\Viewer.aspx" />
+    <Content Include="Ent\Music\Topic Page.aspx" />
+    <Content Include="Ent\Music\Viewer.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -228,6 +236,62 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Ent\Games\ModGames\Topic Page.aspx.cs">
+      <DependentUpon>Topic Page.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ent\Games\ModGames\Topic Page.aspx.designer.cs">
+      <DependentUpon>Topic Page.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ent\Games\ModGames\Viewer.aspx.cs">
+      <DependentUpon>Viewer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ent\Games\ModGames\Viewer.aspx.designer.cs">
+      <DependentUpon>Viewer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ent\Games\OgGames\Topic Page.aspx.cs">
+      <DependentUpon>Topic Page.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ent\Games\OgGames\Topic Page.aspx.designer.cs">
+      <DependentUpon>Topic Page.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ent\Games\OgGames\Viewer.aspx.cs">
+      <DependentUpon>Viewer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ent\Games\OgGames\Viewer.aspx.designer.cs">
+      <DependentUpon>Viewer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ent\Movies\Topic Page.aspx.cs">
+      <DependentUpon>Topic Page.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ent\Movies\Topic Page.aspx.designer.cs">
+      <DependentUpon>Topic Page.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ent\Movies\Viewer.aspx.cs">
+      <DependentUpon>Viewer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ent\Movies\Viewer.aspx.designer.cs">
+      <DependentUpon>Viewer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ent\Music\Topic Page.aspx.cs">
+      <DependentUpon>Topic Page.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ent\Music\Topic Page.aspx.designer.cs">
+      <DependentUpon>Topic Page.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ent\Music\Viewer.aspx.cs">
+      <DependentUpon>Viewer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ent\Music\Viewer.aspx.designer.cs">
+      <DependentUpon>Viewer.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -264,8 +328,11 @@
   <ItemGroup>
     <Folder Include="App_Code\" />
     <Folder Include="Controllers\" />
-    <Folder Include="Edu\" />
-    <Folder Include="Ent\" />
+    <Folder Include="Edu\Books\" />
+    <Folder Include="Edu\Notes\" />
+    <Folder Include="Edu\Tutorials\" />
+    <Folder Include="Ent\Sports\" />
+    <Folder Include="info\" />
     <Folder Include="Models\" />
     <Folder Include="Services\" />
   </ItemGroup>
