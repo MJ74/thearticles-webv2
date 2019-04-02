@@ -166,6 +166,7 @@
     <Content Include="Edu\Notes\Viewer.aspx" />
     <Content Include="Edu\Tutorials\Topic Page.aspx" />
     <Content Include="Edu\Tutorials\Viewer.aspx" />
+    <Content Include="Ent\Games\Default.aspx" />
     <Content Include="Ent\Games\ModGames\Topic Page.aspx" />
     <Content Include="Ent\Games\ModGames\Viewer.aspx" />
     <Content Include="Ent\Games\OgGames\Topic Page.aspx" />
@@ -320,6 +321,13 @@
     </Compile>
     <Compile Include="Edu\Tutorials\Viewer.aspx.designer.cs">
       <DependentUpon>Viewer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ent\Games\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ent\Games\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
     <Compile Include="Ent\Games\ModGames\Topic Page.aspx.cs">
       <DependentUpon>Topic Page.aspx</DependentUpon>
