@@ -156,6 +156,16 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
     <Content Include="Default.aspx" />
+    <Content Include="DevConsole\CreatePage.aspx" />
+    <Content Include="DevConsole\Default.aspx" />
+    <Content Include="DevConsole\EditPage.aspx" />
+    <Content Include="DevConsole\List.aspx" />
+    <Content Include="Edu\Books\Topic Page.aspx" />
+    <Content Include="Edu\Books\Viewer.aspx" />
+    <Content Include="Edu\Notes\Topic Page.aspx" />
+    <Content Include="Edu\Notes\Viewer.aspx" />
+    <Content Include="Edu\Tutorials\Topic Page.aspx" />
+    <Content Include="Edu\Tutorials\Viewer.aspx" />
     <Content Include="Ent\Games\ModGames\Topic Page.aspx" />
     <Content Include="Ent\Games\ModGames\Viewer.aspx" />
     <Content Include="Ent\Games\OgGames\Topic Page.aspx" />
@@ -164,6 +174,8 @@
     <Content Include="Ent\Movies\Viewer.aspx" />
     <Content Include="Ent\Music\Topic Page.aspx" />
     <Content Include="Ent\Music\Viewer.aspx" />
+    <Content Include="Ent\Sports\Topic Page.aspx" />
+    <Content Include="Ent\Sports\Viewer.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -176,6 +188,7 @@
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
+    <Content Include="info\Terms and Conditions.aspx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
@@ -206,6 +219,8 @@
     <Content Include="Scripts\WebForms\WebUIValidation.js" />
     <Content Include="Search.aspx" />
     <Content Include="Services.aspx" />
+    <Content Include="Services\FVS\Default.aspx" />
+    <Content Include="Services\Nile\Deafault.aspx" />
     <Content Include="Site.Master" />
     <Content Include="SiteMap.aspx" />
     <Content Include="Web.config" />
@@ -235,6 +250,76 @@
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DevConsole\CreatePage.aspx.cs">
+      <DependentUpon>CreatePage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DevConsole\CreatePage.aspx.designer.cs">
+      <DependentUpon>CreatePage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DevConsole\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DevConsole\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DevConsole\EditPage.aspx.cs">
+      <DependentUpon>EditPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DevConsole\EditPage.aspx.designer.cs">
+      <DependentUpon>EditPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DevConsole\List.aspx.cs">
+      <DependentUpon>List.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DevConsole\List.aspx.designer.cs">
+      <DependentUpon>List.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Edu\Books\Topic Page.aspx.cs">
+      <DependentUpon>Topic Page.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Edu\Books\Topic Page.aspx.designer.cs">
+      <DependentUpon>Topic Page.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Edu\Books\Viewer.aspx.cs">
+      <DependentUpon>Viewer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Edu\Books\Viewer.aspx.designer.cs">
+      <DependentUpon>Viewer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Edu\Notes\Topic Page.aspx.cs">
+      <DependentUpon>Topic Page.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Edu\Notes\Topic Page.aspx.designer.cs">
+      <DependentUpon>Topic Page.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Edu\Notes\Viewer.aspx.cs">
+      <DependentUpon>Viewer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Edu\Notes\Viewer.aspx.designer.cs">
+      <DependentUpon>Viewer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Edu\Tutorials\Topic Page.aspx.cs">
+      <DependentUpon>Topic Page.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Edu\Tutorials\Topic Page.aspx.designer.cs">
+      <DependentUpon>Topic Page.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Edu\Tutorials\Viewer.aspx.cs">
+      <DependentUpon>Viewer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Edu\Tutorials\Viewer.aspx.designer.cs">
+      <DependentUpon>Viewer.aspx</DependentUpon>
     </Compile>
     <Compile Include="Ent\Games\ModGames\Topic Page.aspx.cs">
       <DependentUpon>Topic Page.aspx</DependentUpon>
@@ -292,8 +377,29 @@
     <Compile Include="Ent\Music\Viewer.aspx.designer.cs">
       <DependentUpon>Viewer.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Ent\Sports\Topic Page.aspx.cs">
+      <DependentUpon>Topic Page.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ent\Sports\Topic Page.aspx.designer.cs">
+      <DependentUpon>Topic Page.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ent\Sports\Viewer.aspx.cs">
+      <DependentUpon>Viewer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ent\Sports\Viewer.aspx.designer.cs">
+      <DependentUpon>Viewer.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="info\Terms and Conditions.aspx.cs">
+      <DependentUpon>Terms and Conditions.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="info\Terms and Conditions.aspx.designer.cs">
+      <DependentUpon>Terms and Conditions.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Search.aspx.cs">
@@ -309,6 +415,20 @@
     </Compile>
     <Compile Include="Services.aspx.designer.cs">
       <DependentUpon>Services.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Services\FVS\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Services\FVS\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Services\Nile\Deafault.aspx.cs">
+      <DependentUpon>Deafault.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Services\Nile\Deafault.aspx.designer.cs">
+      <DependentUpon>Deafault.aspx</DependentUpon>
     </Compile>
     <Compile Include="Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>
@@ -328,13 +448,8 @@
   <ItemGroup>
     <Folder Include="App_Code\" />
     <Folder Include="Controllers\" />
-    <Folder Include="Edu\Books\" />
-    <Folder Include="Edu\Notes\" />
-    <Folder Include="Edu\Tutorials\" />
-    <Folder Include="Ent\Sports\" />
-    <Folder Include="info\" />
+    <Folder Include="DevConsole\Code\" />
     <Folder Include="Models\" />
-    <Folder Include="Services\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

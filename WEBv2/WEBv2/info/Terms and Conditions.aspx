@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Viewer.aspx.cs" Inherits="WEBv2.Ent.Music.Viewer" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Terms and Conditions.aspx.cs" Inherits="WEBv2.info.Terms_and_Conditions" %>
 
 <!DOCTYPE html>
 
@@ -9,7 +9,6 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            <h1></h1>
         </div>
     </form>
 </body>
