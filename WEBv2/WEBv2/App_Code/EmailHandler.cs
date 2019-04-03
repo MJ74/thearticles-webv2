@@ -15,5 +15,8 @@ namespace WEBv2.App_Code
 {
     public class EmailHandler
     {
+
+
+
     }
 }

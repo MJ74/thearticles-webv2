@@ -18,14 +18,15 @@ namespace WEBv2.App_Code
 
         SqlConnection con = new SqlConnection();
         /// <summary>
-        /// Generates ID for a new order 
+        /// Generates ID for a new order from selected Table of the database selected through 'DBsel'
         /// </summary>
         /// <param name="control"></param>
-        public void GenerateAutoID(string control)
+        /// <param name="Tb">Table</param>
+        public void GenerateAutoID(out string control, string Tb)
         {
-            int num = 105;
+            int num = 154;
             con.Open();
-            SqlCommand cmd = new SqlCommand("Select Count(Id) from HWFONTS", con);
+            SqlCommand cmd = new SqlCommand("Select Count(Id) from '"+ Tb +"' ", con);
             int i = Convert.ToInt32(cmd.ExecuteScalar());
             con.Close();
             i++;
