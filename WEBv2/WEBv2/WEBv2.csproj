@@ -154,6 +154,24 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\Edu\Books\TopicPage.css" />
+    <Content Include="Content\Edu\Books\Viewer.css" />
+    <Content Include="Content\Edu\Notes\TopicPage.css" />
+    <Content Include="Content\Edu\Notes\Viewer.css" />
+    <Content Include="Content\Edu\Tutorials\TopicPage.css" />
+    <Content Include="Content\Edu\Tutorials\Viewer.css" />
+    <Content Include="Content\Ent\ModGames\TopicPage.css" />
+    <Content Include="Content\Ent\ModGames\Viewer.css" />
+    <Content Include="Content\Ent\Movies\TopoicPage.css" />
+    <Content Include="Content\Ent\Movies\Viewer.css" />
+    <Content Include="Content\Ent\Music\TopicPage.css" />
+    <Content Include="Content\Ent\Music\Viewer.css" />
+    <Content Include="Content\Ent\OgGames\TopicPage.css" />
+    <Content Include="Content\Ent\OgGames\Viewer.css" />
+    <Content Include="Content\Ent\Sports\TopicPage.css" />
+    <Content Include="Content\Ent\Sports\Viewer.css" />
+    <Content Include="Content\Services\FVS\Default.css" />
+    <Content Include="Content\Services\Nile\Default.css" />
     <Content Include="Content\Site.css" />
     <Content Include="Default.aspx" />
     <Content Include="DevConsole\CreatePage.aspx" />
@@ -461,6 +479,9 @@
     <Folder Include="Controllers\" />
     <Folder Include="DevConsole\Code\" />
     <Folder Include="Models\" />
+    <Folder Include="Scripts\Edu\" />
+    <Folder Include="Scripts\Ent\" />
+    <Folder Include="Scripts\Service\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
