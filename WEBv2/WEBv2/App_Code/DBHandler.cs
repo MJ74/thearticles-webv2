@@ -80,5 +80,14 @@ namespace WEBv2.App_Code
 
         }
 
+        public void ReadDB(out string read, string Tb)
+        {
+            SqlConnection con = new SqlConnection();
+            con.ConnectionString = "(LocalDb)\MSSQLLocalDB;Initial Catalog=Education;Integrated Security=SSPI;AttachDBFilename=|DataDirectory|\Education.mdf;Integrated Security=True";
+            con.Open();
+            SqlCommand cmd = new SqlCommand("SELECT from '" + Tb + "'");
+            cmd.ExecuteNonQuery();
+
+        }
     }
 }
