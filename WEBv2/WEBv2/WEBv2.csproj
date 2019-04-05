@@ -210,11 +210,29 @@
     <Content Include="info\Terms and Conditions.aspx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\Edu\Books\TopicPage.js" />
+    <Content Include="Scripts\Edu\Books\Viewer.js" />
+    <Content Include="Scripts\Edu\Notes\TopicPage.js" />
+    <Content Include="Scripts\Edu\Notes\Viewer.js" />
+    <Content Include="Scripts\Edu\Tutorials\TopicPage.js" />
+    <Content Include="Scripts\Edu\Tutorials\Viewer.js" />
+    <Content Include="Scripts\Ent\ModGames\TopicPage.js" />
+    <Content Include="Scripts\Ent\ModGames\Viewer.js" />
+    <Content Include="Scripts\Ent\Movies\TopicPage.js" />
+    <Content Include="Scripts\Ent\Movies\Viewer.js" />
+    <Content Include="Scripts\Ent\Music\TopicPage.js" />
+    <Content Include="Scripts\Ent\Music\Viewer.js" />
+    <Content Include="Scripts\Ent\OgGames\TopicPage.js" />
+    <Content Include="Scripts\Ent\OgGames\Viewer.js" />
+    <Content Include="Scripts\Ent\Sports\TopicPage.js" />
+    <Content Include="Scripts\Ent\Sports\Viewer.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />
     <Content Include="Scripts\jquery-3.3.1.slim.js" />
     <Content Include="Scripts\jquery-3.3.1.slim.min.js" />
     <Content Include="Scripts\modernizr-2.8.3.js" />
+    <Content Include="Scripts\Service\FVS\Default.js" />
+    <Content Include="Scripts\Service\Nile\Default.js" />
     <Content Include="Scripts\WebForms\DetailsView.js" />
     <Content Include="Scripts\WebForms\Focus.js" />
     <Content Include="Scripts\WebForms\GridView.js" />
@@ -479,9 +497,6 @@
     <Folder Include="Controllers\" />
     <Folder Include="DevConsole\Code\" />
     <Folder Include="Models\" />
-    <Folder Include="Scripts\Edu\" />
-    <Folder Include="Scripts\Ent\" />
-    <Folder Include="Scripts\Service\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
