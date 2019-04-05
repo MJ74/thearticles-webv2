@@ -38,31 +38,18 @@
             </Scripts>
         </asp:ScriptManager>
 
-        <div class="navbar navbar-inverse navbar-fixed-top">
-            <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" runat="server" href="~/">Application name</a>
-                </div>
-                <div class="navbar-collapse collapse">
-                    <ul class="nav navbar-nav">
-                        <li><a runat="server" href="~/">Home</a></li>
-                        <li><a runat="server" href="~/About">About</a></li>
-                        <li><a runat="server" href="~/Contact">Contact</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
+        <%--Nav Bar place--%>
+
         <div class="container body-content">
             <asp:ContentPlaceHolder ID="MainContent" runat="server">
             </asp:ContentPlaceHolder>
-            <hr />
             <footer>
-                <p>&copy; <%: DateTime.Now.Year %> - My ASP.NET Application</p>
+                <hr style="width:95%;align-self:center;border:solid;"/>
+                <p style="font-family:'Old English Text MT';max-width:1080px; width:100%;font:bold;font-size:19px;">
+                    &copy; <%: DateTime.Now.Year %>-&nbsp;
+                    <asp:Image ID="Image2" runat="server" Style="vertical-align: middle" Height="32px" Width="32px" ImageUrl="http://filesm.thearticles.co.in/ARTICLES%20LOGO.png" />
+                    &nbsp; The Articles
+                </p>
             </footer>
         </div>
 

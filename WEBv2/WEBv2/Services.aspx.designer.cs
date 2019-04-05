@@ -11,7 +11,7 @@ namespace WEBv2
 {
 
 
-    public partial class Services
+    public partial class Service
     {
     }
 }

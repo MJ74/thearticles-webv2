@@ -15,7 +15,7 @@ namespace WEBv2.Ent.Movies
         {
             var a = "";
             Algorithms algorithms = new Algorithms();
-            algorithms.(out a, "Education");
+            algorithms.GenerateAutoID(out a, "Education");
             test = a;
         }
     }
