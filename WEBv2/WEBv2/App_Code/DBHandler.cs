@@ -19,9 +19,9 @@ namespace WEBv2.App_Code
         SqlConnection con = new SqlConnection();
         /// <summary>
         /// Select the Database
-        /// 1 for Services, 2 for Ent, 3 for Edu
+        /// 1 for Edu, 2 for Ent, 3 for Services, 4 for DC
         /// </summary>
-        /// <param name="DBno">values 1 2 3</param>
+        /// <param name="DBno">values 1, 2, 3, 4</param>
         public void DBsel(int DBno)
         {
             if (DBno == 1)
@@ -47,10 +47,12 @@ namespace WEBv2.App_Code
         /// inserts data into a given table in database 1
         /// </summary>
         /// <param name="TbN">table name</param>
-        public void InsertIntoDB(string TbN)
+        public void InsertIntoDB(string TbN, string inp1cl, string inp1, int dbsel)
         {
+            SqlConnection con = new SqlConnection();
+            DBsel(dbsel);
             con.Open();
-            SqlCommand cmd = new SqlCommand("Insert into '" + TbN + "' (Id, Name, Email, URL, PIN) values(@id, @name, @email, @url, @pin)", con);
+            SqlCommand cmd = new SqlCommand("Insert into '" + TbN + "' '" + inp1cl + "' values(", con);
 
         }
         /// <summary>
@@ -62,8 +64,10 @@ namespace WEBv2.App_Code
         /// <param name="r"></param>
         /// <param name="t"></param>
         /// <param name="y"></param>
-        public void InsertIntoDB(string o, string w, string e, string r, string t, string y)
+        public void InsertIntoDB(string o, string w, string e, string r, string t, string y, int dbsel)
         {
+            SqlConnection con = new SqlConnection();
+            DBsel(dbsel);
             con.Open();
             SqlCommand cmd = new SqlCommand("Insert into '" + o + "' (Id, Name, Email, URL, PIN) values(@p1, @p2, @p3, @4, @5)", con);
             cmd.Parameters.Add("@p1", System.Data.SqlDbType.Int).Value = w;
@@ -80,14 +84,14 @@ namespace WEBv2.App_Code
 
         }
 
-        public void ReadDB(out string read, string Tb)
+        public void ReadDB(out string readData, string rdcl, string Tb, int dbsel)
         {
             SqlConnection con = new SqlConnection();
-            con.ConnectionString = "";
+            DBsel(dbsel);
             con.Open();
-            SqlCommand cmd = new SqlCommand("SELECT from '" + Tb + "'");
-            read =  Convert.ToString(cmd.ExecuteNonQuery());
-            
+            SqlCommand cmd = new SqlCommand("SELECT from '" + Tb + "' WHERE '"+ rdcl +"' ", con);
+            readData =  Convert.ToString(cmd.ExecuteReader());
+            con.Close();
         }
     }
 }
